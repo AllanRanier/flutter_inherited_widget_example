@@ -25,8 +25,11 @@ class DrawerPage extends StatelessWidget {
                 user.name,
                 style: Theme.of(context).textTheme.subtitle2,
               ),
+              const SizedBox(
+                width: 3,
+              ),
               Text(
-               '(${user.birthData})',
+                '(${user.birthData})',
                 style: Theme.of(context).textTheme.overline,
               ),
             ],
